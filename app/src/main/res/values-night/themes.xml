@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CursosUnir" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Cor principal -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <!-- Texto/ícones sobre a cor primária -->
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Cor secundária -->
+        <item name="colorSecondary">@color/secondary_light</item>
+
+        <!-- Texto/ícones sobre a cor secundária -->
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Fundo principal -->
+        <item name="android:colorBackground">@color/text_primary</item>
+
+        <!-- Texto padrão -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Cards, Dialogs, BottomSheet -->
+        <item name="colorSurface">@color/surface_dark</item>
+
+        <!-- Texto sobre superfícies -->
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Cor de erro -->
+        <item name="colorError">@color/error_dark</item>
+
+        <!-- Texto sobre erro -->
+        <item name="colorOnError">@color/black</item>
+
+        <!-- Barra de navegação -->
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

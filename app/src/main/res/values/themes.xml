@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CursosUnir" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Cor principal -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <!-- Texto/ícones sobre a cor primária -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Cor secundária -->
+        <item name="colorSecondary">@color/secondary</item>
+
+        <!-- Texto/ícones sobre a cor secundária -->
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Fundo principal -->
+        <item name="android:colorBackground">@color/background</item>
+
+        <!-- Texto padrão -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+
+        <!-- Cards, Dialogs, BottomSheet -->
+        <item name="colorSurface">@color/surface</item>
+
+        <!-- Texto sobre superfícies -->
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Cor de erro -->
+        <item name="colorError">@color/error</item>
+
+        <!-- Texto sobre erro -->
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Barra de navegação -->
+        <item name="android:navigationBarColor">@color/background</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CursosUnir" parent="Base.Theme.CursosUnir" />
+</resources>
